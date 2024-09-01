@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <title>Developer-portfolio</title>
+  </head>
+  <body>
+    <div class="page">
+      <!-- HEADER -->
+      <header class="header">
+        <img src="./images/logo.svg" alt="logo" />
+        <div class="header__container">
+          <nav class="nav">
+            <a class="nav__item" href="#">Home</a>
+            <a class="nav__item" href="#">About</a>
+            <a class="nav__item" href="#">Tech Stack</a>
+            <a class="nav__item" href="#">Projects</a>
+            <a class="nav__item" href="#">Contact</a>
+          </nav>
+          <ul class="icons">
+            <li class="icon">
+              <a href="#" class="icon__img github"></a>
+            </li>
+            <li class="icon">
+              <a href="#" class="icon__img twitter"></a>
+            </li>
+            <li class="icon">
+              <a href="#" class="icon__img linkedin"></a>
+            </li>
+          </ul>
+        </div>
+        <div class="burger">
+          <input
+            type="checkbox"
+            id="burger-checkbox"
+            class="burger__checkbox"
+          />
+          <label for="burger-checkbox" class="burger__menu"></label>
+          <div class="burger__container">
+            <nav class="burger__nav">
+              <a class="nav__item" href="#">Home</a>
+              <a class="nav__item" href="#">About</a>
+              <a class="nav__item" href="#">Tech Stack</a>
+              <a class="nav__item" href="#">Projects</a>
+              <a class="nav__item" href="#">Contact</a>
+            </nav>
+            <ul class="icons">
+              <li class="icon">
+                <a
+                  href="#"
+                  class="icon__img icon__img_burger github github_burger"
+                ></a>
+              </li>
+              <li class="icon">
+                <a
+                  href="#"
+                  class="icon__img icon__img_burger twitter twitter_burger"
+                ></a>
+              </li>
+              <li class="icon">
+                <a
+                  href="#"
+                  class="icon__img icon__img_burger linkedin linkedin_burger"
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- PROMO -->
+      <section class="section promo">
+        <h1 class="promo__title">
+          Hi 👋,<br />
+          My name is<br />
+          <span>Pavan MG</span><br />
+          I build things for web
+        </h1>
+        <div class="promo__photo"></div>
+      </section>
+      <!-- TECHNOLOGY -->
+      <section class="section technology">
+        <h2 class="section__title">My Tech Stack</h2>
+        <p class="section__subtitle">
+          Technologies I've been working with recently
+        </p>
+        <ul class="technology__list">
+          <li class="technology__item">
+            <img
+              src="./images/Technology icons/html.svg"
+              alt="html"
+              class="technology__icon"
+            />
+          </li>
+          <li class="technology__item">
+            <img
+              src="./images/Technology icons/css.svg"
+              alt="css"
+              class="technology__icon"
+            />
+          </li>
+
+          <li class="technology__item">
+            <img
+              src="./images/Technology icons/js.svg"
+              alt="js"
+              class="technology__icon"
+            />
+          </li>
+
+          <li class="technology__item">
+            <img
+              src="./images/Technology icons/react.svg"
+              alt="react"
+              class="technology__icon"
+            />
+          </li>
+
+          <li class="technology__item">
+            <img
+              src="./images/Technology icons/redux.svg"
+              alt="redux"
+              class="technology__icon"
+            />
+          </li>
+
+          <li class="technology__item">
+            <img
+              src="./images/Technology icons/bootstrap.svg"
+              alt="bootstrap"
+              class="technology__icon"
+            />
+          </li>
+
+          <li class="technology__item">
+            <img
+              src="./images/Technology icons/tailwind.svg"
+              alt="tailwind"
+              class="technology__icon"
+            />
+          </li>
+
+          <li class="technology__item">
+            <img
+              src="./images/Technology icons/sass.svg"
+              alt="sass"
+              class="technology__icon"
+            />
+          </li>
+
+          <li class="technology__item">
+            <img
+              src="./images/Technology icons/git.svg"
+              alt="git"
+              class="technology__icon"
+            />
+          </li>
+
+          <li class="technology__item">
+            <img
+              src="./images/Technology icons/greensock.svg"
+              alt="greensock"
+              class="technology__icon"
+            />
+          </li>
+
+          <li class="technology__item">
+            <img
+              src="./images/Technology icons/vscode.svg"
+              alt="vscode"
+              class="technology__icon"
+            />
+          </li>
+
+          <li class="technology__item">
+            <img
+              src="./images/Technology icons/github.svg"
+              alt="github"
+              class="technology__icon"
+            />
+          </li>
+        </ul>
+      </section>
+      <!-- PROJECTS -->
+      <section class="section projects">
+        <h2 class="section__title">Projects</h2>
+        <p class="section__subtitle">Things I’ve built so far</p>
+        <ul class="projects__list">
+          <li class="project">
+            <div class="project__card">
+              <img
+                src="./images/Projects/project_1.jpeg"
+                alt="project"
+                class="project__img"
+              />
+              <div class="project__wrapper">
+                <h3 class="project__title">Project Tile goes here</h3>
+                <p class="project__description">
+                  This is sample project description random things are here in
+                  description This is sample project lorem ipsum generator for
+                  dummy content
+                </p>
+                <p class="project__stack">
+                  Tech stack <span>: HTML , JavaScript, SASS, React</span>
+                </p>
+                <ul class="project__links">
+                  <li class="project__link">
+                    <img src="./images/link-chain.svg" alt="icon" />
+                    <a href="#" class="link">Live Preview</a>
+                  </li>
+                  <li class="project__link">
+                    <img src="./images/github-fill.svg" alt="icon" />
+                    <a href="#" class="link">View Code</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="project">
+            <div class="project__card">
+              <img
+                src="./images/Projects/project_2.jpeg"
+                alt="project"
+                class="project__img"
+              />
+              <div class="project__wrapper">
+                <h3 class="project__title">Project Tile goes here</h3>
+                <p class="project__description">
+                  This is sample project description random things are here in
+                  description This is sample project lorem ipsum generator for
+                  dummy content
+                </p>
+                <p class="project__stack">
+                  Tech stack <span>: HTML , JavaScript, SASS, React</span>
+                </p>
+                <ul class="project__links">
+                  <li class="project__link">
+                    <img src="./images/link-chain.svg" alt="icon" />
+                    <a href="#" class="link">Live Preview</a>
+                  </li>
+                  <li class="project__link">
+                    <img src="./images/github-fill.svg" alt="icon" />
+                    <a href="#" class="link">View Code</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="project">
+            <div class="project__card">
+              <img
+                src="./images/Projects/project_3.jpeg"
+                alt="project"
+                class="project__img"
+              />
+              <div class="project__wrapper">
+                <h3 class="project__title">Project Tile goes here</h3>
+                <p class="project__description">
+                  This is sample project description random things are here in
+                  description This is sample project lorem ipsum generator for
+                  dummy content
+                </p>
+                <p class="project__stack">
+                  Tech stack <span>: HTML , JavaScript, SASS, React</span>
+                </p>
+                <ul class="project__links">
+                  <li class="project__link">
+                    <img src="./images/link-chain.svg" alt="icon" />
+                    <a href="#" class="link">Live Preview</a>
+                  </li>
+                  <li class="project__link">
+                    <img src="./images/github-fill.svg" alt="icon" />
+                    <a href="#" class="link">View Code</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="project">
+            <div class="project__card">
+              <img
+                src="./images/Projects/project_4.jpeg"
+                alt="project"
+                class="project__img"
+              />
+              <div class="project__wrapper">
+                <h3 class="project__title">Project Tile goes here</h3>
+                <p class="project__description">
+                  This is sample project description random things are here in
+                  description This is sample project lorem ipsum generator for
+                  dummy content
+                </p>
+                <p class="project__stack">
+                  Tech stack <span>: HTML , JavaScript, SASS, React</span>
+                </p>
+                <ul class="project__links">
+                  <li class="project__link">
+                    <img src="./images/link-chain.svg" alt="icon" />
+                    <a href="#" class="link">Live Preview</a>
+                  </li>
+                  <li class="project__link">
+                    <img src="./images/github-fill.svg" alt="icon" />
+                    <a href="#" class="link">View Code</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="project">
+            <div class="project__card">
+              <img
+                src="./images/Projects/project_5.jpeg"
+                alt="project"
+                class="project__img"
+              />
+              <div class="project__wrapper">
+                <h3 class="project__title">Project Tile goes here</h3>
+                <p class="project__description">
+                  This is sample project description random things are here in
+                  description This is sample project lorem ipsum generator for
+                  dummy content
+                </p>
+                <p class="project__stack">
+                  Tech stack <span>: HTML , JavaScript, SASS, React</span>
+                </p>
+                <ul class="project__links">
+                  <li class="project__link">
+                    <img src="./images/link-chain.svg" alt="icon" />
+                    <a href="#" class="link">Live Preview</a>
+                  </li>
+                  <li class="project__link">
+                    <img src="./images/github-fill.svg" alt="icon" />
+                    <a href="#" class="link">View Code</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="project">
+            <div class="project__card">
+              <img
+                src="./images/Projects/project_6.jpeg"
+                alt="project"
+                class="project__img"
+              />
+              <div class="project__wrapper">
+                <h3 class="project__title">Project Tile goes here</h3>
+                <p class="project__description">
+                  This is sample project description random things are here in
+                  description This is sample project lorem ipsum generator for
+                  dummy content
+                </p>
+                <p class="project__stack">
+                  Tech stack <span>: HTML , JavaScript, SASS, React</span>
+                </p>
+                <ul class="project__links">
+                  <li class="project__link">
+                    <img src="./images/link-chain.svg" alt="icon" />
+                    <a href="#" class="link">Live Preview</a>
+                  </li>
+                  <li class="project__link">
+                    <img src="./images/github-fill.svg" alt="icon" />
+                    <a href="#" class="link">View Code</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="footer__links">
+          <div class="logo footer__logo"></div>
+          <div class="footer__container">
+            <div class="footer__contact">
+              <a href="tel:+91 12345 09876">+91 12345 09876</a>
+              <a href="mailto:info@example.com">info@example.com</a>
+            </div>
+            <ul class="icons">
+              <li class="icon">
+                <a href="#" class="icon__img icon__img_footer github"></a>
+              </li>
+              <li class="icon">
+                <a href="#" class="icon__img icon__img_footer twitter"></a>
+              </li>
+              <li class="icon">
+                <a href="#" class="icon__img icon__img_footer linkedin"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__nav">
+          <nav class="nav nav_footer">
+            <a class="nav__item nav__item_footer" href="#">Home</a>
+            <a class="nav__item nav__item_footer" href="#">About</a>
+            <a class="nav__item nav__item_footer" href="#">Tech Stack</a>
+            <a class="nav__item nav__item_footer" href="#">Projects</a>
+            <a class="nav__item nav__item_footer" href="#">Contact</a>
+          </nav>
+          <p class="footer__caption">
+            Designed and built by
+            <span>
+              Pavan MG
+              <span>with</span>
+              Love
+              <span>&</span>
+              Coffee
+            </span>
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
